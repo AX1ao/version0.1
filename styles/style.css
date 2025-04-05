@@ -1,0 +1,123 @@
+/* Global styles */
+body {
+  background-color: #d1d6d8;
+  color: #0f0f0f;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 1rem;
+}
+
+/* Top-left logo image (with text) */
+.header-logo {
+  height: 70px; /* Increase/decrease to resize */
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.icon-link {
+  display: inline-block;
+  height: 80px;
+}
+
+.icon {
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+  margin-right: 0.5rem; /* or 8px, or whatever you like */
+}
+
+.icon:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation buttons */
+.nav-buttons a {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #0f0f0f;
+  font-size: 1.5rem;
+  background-color: #97aaba;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #8196a4;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;   /* change from center */
+  padding: 2rem 18rem;            /* add more horizontal space */
+  text-align: left;
+  gap: 3rem;
+}
+
+
+/* Container for left icon */
+.left-icon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-right: 2rem;
+}
+
+/* Image for the reading scientist */
+.icon-image {
+  height: 240px;
+  margin-top: auto;
+  height: 500px;
+}
+
+/* Center content block */
+.content {
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Big centered title */
+.title {
+  font-size: 2.8rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+/* Q&A section spacing */
+.intro .qa {
+  margin-bottom: 2.5rem;
+}
+
+/* Question headings */
+.qa h2 {
+  font-size: 1.55rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #0f0f0f;
+}
+
+/* Answer paragraphs */
+.qa p {
+  font-size: 1.25rem;
+  line-height: 1.65;
+  color: #0f0f0f;
+}
