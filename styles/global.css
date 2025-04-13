@@ -121,3 +121,66 @@ main {
   line-height: 1.65;
   color: #d4d7d9;/*#0f0f0f*/
 }
+
+body {
+  background-color: #434f59;
+  color: #d4d7d9;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+a {
+  color: #d4d7d9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav.nav-buttons a {
+  background-color: #8196a4;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+
+nav.nav-buttons a:hover {
+  background-color: #6d7c86;
+}
+
+main {
+  padding: 2rem 3rem;
+}
+
+.blog-category h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #d4d7d9;
+  border-bottom: 1px solid #6d7c86;
+  padding-bottom: 0.4rem;
+}
+
+.blog-entry {
+  margin-bottom: 2rem;
+}
+
+.blog-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.meta {
+  font-size: 0.95rem;
+  color: #b6babd;
+  margin-bottom: 0.4rem;
+}
+
+.description {
+  font-size: 1.05rem;
+  color: #d4d7d9;
+}

@@ -1,0 +1,68 @@
+/* ------------------------------
+   Blog Page Styles (blog.css)
+------------------------------ */
+
+/* Override background and text color */
+body {
+    background-color: #434f59;
+    color: #d4d7d9;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Section title: Category label (e.g., Medical Imaging) */
+  .blog-category h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.2rem;
+    margin: 2rem 0 1rem 0;
+    padding-left: 1rem;
+    color: #d4d7d9;
+  }
+  
+  /* Individual blog entry layout */
+  .blog-entry {
+    border-left: 4px solid #8196a4;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.03);
+    transition: background-color 0.2s ease;
+  }
+  
+  .blog-entry:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+  }
+  
+  /* Blog title (linked) */
+  .blog-title {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.8rem;
+    color: #d4d7d9;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+  
+  .blog-title:hover {
+    text-decoration: underline;
+  }
+  
+  /* Meta info (date, tags, authors) */
+  .meta {
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+    color: #c0c4c7;
+  }
+  
+  /* Short description */
+  .description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #d4d7d9;
+  }
+  
+  /* Optional: spacing below categories */
+  .blog-category {
+    margin-bottom: 3rem;
+  }
+  
